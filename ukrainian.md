@@ -173,7 +173,7 @@ class PostRequest extends Request
 
 Контролер має виконувати свої прямі обов’язки, тож перемістіть бізнес-логіку з контролерів до [сервісних класів](https://laravel.com/docs/5.8/providers).
 
-Bad:
+Погано:
 
 ```php
 public function store(Request $request)
@@ -186,7 +186,7 @@ public function store(Request $request)
 }
 ```
 
-Good:
+Добре:
 
 ```php
 public function store(Request $request)
